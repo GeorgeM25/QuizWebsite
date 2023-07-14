@@ -1,0 +1,143 @@
+body {
+    animation: color 10s ease infinite;
+}
+
+
+@keyframes color {
+    0% {
+        background-image: url(images/tokyo.jpg);
+        background-position:center;
+        background-size:cover;
+    /* background-repeat: no-repeat; */
+        width: auto;
+        height: 200vw;
+        height: auto;
+    }
+    25% {
+        background-image: url(images/venice.jpg);
+        background-position:center;
+        background-size:cover;
+    /* background-repeat: no-repeat; */
+        width: auto;
+        height: 200vw;
+        height: auto;
+    }
+    50% {
+        background-image: url(images/tokyo.jpg);
+        background-position:center;
+        background-size:cover;
+    /* background-repeat: no-repeat; */
+        width: auto;
+        height: 200vw;
+        height: auto;
+    }
+    75% {
+        background-image: url(images/venice.jpg);
+        background-position:center;
+        background-size:cover;
+    /* background-repeat: no-repeat; */
+        width: auto;
+        height: 200vw;
+        height: auto;
+    }
+    100% {
+        background-image: url(images/tokyo.jpg);
+        background-position:center;
+        background-size:cover;
+    /* background-repeat: no-repeat; */
+        width: auto;
+        height: 200vw;
+        height: auto;
+    }
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+}
+
+p { 
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+}
+
+#username-button {
+    display:block;
+    width:10vw; /* setting the width */
+    height:5vw;
+    margin: 1vw auto;
+    position:relative;
+    font-style:normal;
+    font-weight:normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:1vw;
+    outline:black;
+    color:black;
+    border:black;
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
+}
+
+#take-picture-button {
+    display:block;
+    width:10vw; /* setting the width */
+    height:5vw;
+    margin: 0.1vw auto;
+    position:relative;
+    font-style:normal;
+    font-weight:normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:1vw;
+    outline:black;
+    color:black;
+    border:black;
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
+}
+
+#quiz-button {
+    display: block;
+    font-size: 5vw;
+    width: 10vw;
+    height: 7vw;
+    color: black;
+    margin: 1vw  auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* username entry box */
+
+#username {
+    font-size: 3vw;
+    color: black;
+    display: block;
+    margin:1vw auto;
+}
+
+#cam {
+
+    text-align: center;
+}
+
+
+/* highscore line */
+
+#highscore {
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+}
+
+#highText {
+    font-size: 3vw;
+    color: white;
+    margin:1vw auto;
+    text-align: center;
+}

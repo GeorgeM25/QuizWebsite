@@ -1,0 +1,109 @@
+body {
+    animation: color 10s ease infinite;
+}
+
+
+@keyframes color {
+    0% {
+        background-image: url(images/venice.jpg);
+        background-position:center;
+        background-size:cover;
+    /* background-repeat: no-repeat; */
+        width: auto;
+        height: 200vw;
+        height: auto;
+    }
+    25% {
+        background-image: url(images/tokyo.jpg);
+        background-position:center;
+        background-size:cover;
+    /* background-repeat: no-repeat; */
+        width: auto;
+        height: 200vw;
+        height: auto;
+    }
+    50% {
+        background-image: url(images/venice.jpg);
+        background-position:center;
+        background-size:cover;
+    /* background-repeat: no-repeat; */
+        width: auto;
+        height: 200vw;
+        height: auto;
+    }
+    75% {
+        background-image: url(images/tokyo.jpg);
+        background-position:center;
+        background-size:cover;
+    /* background-repeat: no-repeat; */
+        width: auto;
+        height: 200vw;
+        height: auto;
+    }
+    100% {
+        background-image: url(images/venice.jpg);
+        background-position:center;
+        background-size:cover;
+    /* background-repeat: no-repeat; */
+        width: auto;
+        height: 200vw;
+        height: auto;
+    }
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+}
+
+#homebutton {
+    display: block
+}
+
+#threebutton {
+    font-size: 3vw;
+    color: white;
+}
+
+div {
+    text-align: center;
+}
+
+
+button {
+        display:inline-block;
+        width:10vw; /* setting the width */
+        height:10vw;
+        margin:0 auto; /* this will center  it */
+        position:relative;
+        font-style:normal;
+        font-weight:normal;
+        font-family:"Open Sans";
+        font-size:2vw;
+        outline:none;
+        color:#fff;
+        border:none;
+        text-decoration:none;
+        text-align:center;
+        cursor:pointer;
+        background-color: #fc7b72;
+        -webkit-border-radius:2px;
+        -moz-border-radius:2px;
+        border-radius:2px;
+        border-bottom:1px solid #73ffad;
+        
+
+
+    }
+
+p1 {
+    font-size: 3vw;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    color:white;
+}
+
+
+
